@@ -1,0 +1,97 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #066576;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #066576;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #e6eeff;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-o-restaurante, #cardapio {
+    background-color: #e6eeff;
+}
+
+.text-colored {
+    color: #066576;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #066576;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #066576;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+        width: 100%;
+    }
+
+    #eventos img {
+        height: 600px;
+    }
+}
+
+@media (min-width: 1023px) {
+    .carousel-item img {
+        height: 800px;
+        width: 100%;
+    }
+
+    #eventos img {
+        height: 500px;
+    }
+
+    #bolos img, #tortas img, #salgados img, #brigadeiro img {
+        height: 200px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .carousel-item img {
+        height: 400px;
+        width: 100%;
+    }
+
+    #eventos img {
+        height: 350px;
+    }
+
+    #bolos img, #tortas img, #salgados img, #brigadeiro img {
+        height: 100px;
+    }
+}
+
+    
